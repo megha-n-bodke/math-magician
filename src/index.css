@@ -3,14 +3,14 @@ body {
   font-family:
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,6 +22,47 @@ code {
     Menlo,
     Monaco,
     Consolas,
-    'Courier New',
+    "Courier New",
     monospace;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.calculator {
+  background-color: #e0e0e0;
+  border: none;
+  width: 25%;
+  border-spacing: 0; /* Removes the cell spacing via CSS */
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+tr:first-child {
+  color: #fff;
+  font-size: 20px;
+}
+
+.operator-column {
+  background-color: #f5913e;
+}
+
+td {
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+}
+
+.answer-row {
+  background-color: #858694;
+}
+
+.answer-row td {
+  text-align: right;
 }

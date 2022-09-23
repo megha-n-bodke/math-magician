@@ -57,6 +57,7 @@ td {
   width: 40px;
   text-align: center;
   border: 1px solid #bfbfbf;
+  cursor: pointer;
 }
 
 .answer-row {
